@@ -20,6 +20,7 @@ class Game() {
     
     draw() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.ctx.fillStyle = "rgba(0, 0, 0, 1)";
         this.ctx.fillRect(100, 100, 50, 100);
     }
     
